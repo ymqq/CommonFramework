@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/query_tab_today_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="今日"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/query_tab_lastWeek_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="近一周"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/query_tab_selectDate_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="指定日期"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:id="@+id/query_datepicker_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/query_startDate_tv"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="#f3f3f3"
+            android:gravity="center"
+            android:text="2016-12-11"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="54dp"
+            android:gravity="center"
+            android:text="~"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/query_endDate_tv"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="#f3f3f3"
+            android:gravity="center"
+            android:text="2016-12-11"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/query_dateQuery_btn"
+            android:layout_width="70dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:text="查询"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/query_successedRegister"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="有效登记： 50 次"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/query_failedRegister"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="无效登记： 5 次"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/query_preRegister"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="预登记： 12 次"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18dp" />
+
+</LinearLayout>

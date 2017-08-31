@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+
+    <!-- 自定义RefreshRecyclerView的HeaderView与FooterView的尺寸配置 -->
+    <!-- 这里可以覆盖RefreshRecyclerView中默认定义的样式尺寸配置 -->
+    <dimen name="recyclerview_refresh_headerview_height">60dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_marginTop">-60dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_progressSize">40dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_hint_height">40dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_hint_marginLeft">6dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_hint_textSize">16dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_lastRefreshTime_height">20dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_lastRefreshTime_textSize">14dp</dimen>
+    <dimen name="recyclerview_refresh_footerview_height">54dp</dimen>
+    <dimen name="recyclerview_refresh_footerview_progressSize">40dp</dimen>
+    <dimen name="recyclerview_refresh_footerview_hint_textSize">16dp</dimen>
+    <dimen name="recyclerview_refresh_footerview_hint_marginLeft">6dp</dimen>
+</resources>

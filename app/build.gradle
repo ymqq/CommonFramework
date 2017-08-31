@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'com.getkeepsafe.dexcount'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "cn.ffcs.ms.crm_mobile_v20"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        // dex突破65535的限制
+        multiDexEnabled true
+
+        buildConfigField "boolean", "IS_ON_CRASH_CAPTURE", "false"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
+    }
+}
+
+greendao {
+    schemaVersion 2
+    daoPackage 'cn.ffcs.ms.crm_mobile_v20.greendao.gen'
+    targetGenDir 'src/main/java'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile project(':ModuleCore')
+
+    compile project(':ModulePicture')
+
+    compile project(':ModuleDB')
+
+    compile project(':ModuleHttp')
+
+    compile project(':ModuleDiskCache')
+
+    compile project(':ModuleWidgets')
+
+    compile project(':ModuleZXing')
+
+}
+
+// 使用Gradle的findbugs插件进行当前模块下的隐性bugs检测
+apply plugin: "findbugs"
+
+task findbugs(type: FindBugs, dependsOn:'assembleDebug') {
+
+    ignoreFailures= true
+    effort= "default"
+    reportLevel= "high"
+    println( "$project.buildDir")
+    classes = files("$project.buildDir/intermediates/classes")
+    source= fileTree("src/main/java/")
+    classpath= files()
+    reports{
+        xml.enabled=false
+        html.enabled=true
+        xml {
+            destination "$project.buildDir/findbugs.xml"
+        }
+        html{
+            destination "$project.buildDir/findbugs.html"
+        }
+    }
+}

@@ -1,0 +1,188 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:4:11-46
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:3:11-57
+	xmlns:android
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:8:22-78
+application
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:10:5-36:19
+MERGED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:11:5-21:19
+MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\Administrator\.android\build-cache\a504702d71fcb56e49047c06b2a8eed0c25ead1d\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:25.0.1] C:\Users\Administrator\.android\build-cache\269091aa8586545128d824320d862257944d9174\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.0.1] C:\Users\Administrator\.android\build-cache\c090f1798c6ff87c9fb48d1cb2ba4199bef7cb2b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.2] C:\Users\Administrator\.android\build-cache\3e5eec8b3ac0edb2b7b708cad18d8e9d2f18c8eb\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] C:\Users\Administrator\.android\build-cache\2a627f1005313119a219d893627596ae44b7eb7a\output\AndroidManifest.xml:24:5-20
+MERGED from [CommonFramework:ModulePicture:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModulePicture\build\intermediates\bundles\default\AndroidManifest.xml:11:5-14:19
+MERGED from [CommonFramework:ModuleDB:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleDB\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [CommonFramework:ModuleHttp:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleHttp\build\intermediates\bundles\default\AndroidManifest.xml:11:5-14:19
+MERGED from [CommonFramework:ModuleDiskCache:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleDiskCache\build\intermediates\bundles\default\AndroidManifest.xml:11:5-14:19
+MERGED from [CommonFramework:ModuleWidgets:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleWidgets\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [CommonFramework:ModuleAnimations:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleAnimations\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.daimajia.easing:library:1.0.0] C:\Users\Administrator\.android\build-cache\ec8aa78c42a0fe93decfcaa62e2922a6ca7397f3\output\AndroidManifest.xml:11:5-15:19
+MERGED from [CommonFramework:ModuleZXing:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleZXing\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [cn.yipianfengye.android:zxing-library:2.1] C:\Users\Administrator\.android\build-cache\51a83e1afa248f3f6e5e3530c0f7e4b46846a7e4\output\AndroidManifest.xml:11:5-18:19
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Administrator\.android\build-cache\118b07081ff18c3659eb339ddc0972e32c014817\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Administrator\.android\build-cache\9ea4c8271534e2430250b3e7f2d908a9f4958723\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Administrator\.android\build-cache\c9bbc140f03665cb918877baede919625d1ea9d0\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Administrator\.android\build-cache\fdd991a70fd092743b6effb170d7e66564d41231\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Administrator\.android\build-cache\d0e5608f4167e95ab1710a62ca055e510d4b8fa4\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Administrator\.android\build-cache\2e7d149cf7b5c8de1765da00fe32031773ccee1e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\Administrator\.android\build-cache\4c1f5ffdd5310b908c297c0266f90ff17907cde6\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\Administrator\.android\build-cache\e14df0b9ced835051e7f4c42e7005444a98d1130\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Administrator\.android\build-cache\9a80616ee7fb7abfeb8af9c8f48a150b8ea7adf6\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:15:9-35
+	android:allowBackup
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:13:9-43
+		REJECTED from [com.daimajia.easing:library:1.0.0] C:\Users\Administrator\.android\build-cache\ec8aa78c42a0fe93decfcaa62e2922a6ca7397f3\output\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:16:9-40
+	tools:replace
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:17:9-29
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:11:9-38
+activity#cn.ffcs.ms.crm_mobile_v20.SplashActivity
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:theme
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:21:13-47
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:20:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:25:27-74
+activity#cn.ffcs.ms.crm_mobile_v20.login.LoginActivity
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:29:9-57
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:29:19-54
+activity#cn.ffcs.ms.crm_mobile_v20.main.MainActivity
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:30:9-55
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:30:19-52
+activity#cn.ffcs.ms.crm_mobile_v20.messages.MessagesActivity
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:31:9-63
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:31:19-60
+activity#cn.ffcs.ms.crm_mobile_v20.others.ShareActivity
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:32:9-58
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:32:19-55
+activity#cn.ffcs.ms.crm_mobile_v20.others.AppRecomendActivity
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:33:19-61
+activity#cn.ffcs.ms.crm_mobile_v20.version.VersionActivity
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:34:9-61
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:34:19-58
+activity#cn.ffcs.ms.crm_mobile_v20.settings.SettingsActivity
+ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:35:9-63
+	android:name
+		ADDED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml:35:19-60
+uses-sdk
+INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\Administrator\.android\build-cache\a504702d71fcb56e49047c06b2a8eed0c25ead1d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.android\build-cache\436bdd53701c3dc916dc777f712960cf29ad3f32\output\AndroidManifest.xml:18:5-42
+MERGED from [com.trello:rxlifecycle-android:1.0] C:\Users\Administrator\.android\build-cache\718cd80e24fd175d32b6b75e8389e9225940437b\output\AndroidManifest.xml:17:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0] C:\Users\Administrator\.android\build-cache\3ad84a87b8cf996aef2ded25b7ead613772aa498\output\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding-design:0.4.0] C:\Users\Administrator\.android\build-cache\05cecf02943e694e5563de5220150559cf76c755\output\AndroidManifest.xml:6:5-44
+MERGED from [com.android.support:design:25.0.1] C:\Users\Administrator\.android\build-cache\269091aa8586545128d824320d862257944d9174\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.0.1] C:\Users\Administrator\.android\build-cache\c090f1798c6ff87c9fb48d1cb2ba4199bef7cb2b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding-recyclerview-v7:0.4.0] C:\Users\Administrator\.android\build-cache\fe87c644ad339713d1b2454a0a4c4284c580f849\output\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\Administrator\.android\build-cache\461628914b63321b5dc056b00b498fc91480b04a\output\AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Administrator\.android\build-cache\86fdd71fcb488a9605c20e58b61bc016c0372529\output\AndroidManifest.xml:19:5-43
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.2] C:\Users\Administrator\.android\build-cache\3e5eec8b3ac0edb2b7b708cad18d8e9d2f18c8eb\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.orhanobut:logger:1.15] C:\Users\Administrator\.android\build-cache\2caa8f318ccbc1ea5fb4bb0f14865d420fe863d9\output\AndroidManifest.xml:6:5-43
+MERGED from [com.android.support.test.espresso:espresso-idling-resource:2.2.2] C:\Users\Administrator\.android\build-cache\2a627f1005313119a219d893627596ae44b7eb7a\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.5] C:\Users\Administrator\.android\build-cache\c96a755f19b2311c062d5a8814bdc5e562643175\output\AndroidManifest.xml:20:5-22:41
+MERGED from [CommonFramework:ModulePicture:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModulePicture\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jude:rollviewpager:1.4.5] C:\Users\Administrator\.android\build-cache\b041fa5c14f5ef4585dd075e561574343ca44167\output\AndroidManifest.xml:7:5-9:41
+MERGED from [CommonFramework:ModuleDB:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleDB\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [CommonFramework:ModuleHttp:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleHttp\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [CommonFramework:ModuleDiskCache:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleDiskCache\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [CommonFramework:ModuleWidgets:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleWidgets\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [CommonFramework:ModuleAnimations:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleAnimations\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.easing:library:1.0.0] C:\Users\Administrator\.android\build-cache\ec8aa78c42a0fe93decfcaa62e2922a6ca7397f3\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.androidanimations:library:1.1.2] C:\Users\Administrator\.android\build-cache\b6e05b2bee7f80f66c8b4a6edd12834009f8676b\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:25.0.1] C:\Users\Administrator\.android\build-cache\8e4a401e7385906d7899d975182248e41295c63c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.daimajia.swipelayout:library:1.2.0] C:\Users\Administrator\.android\build-cache\df202447bf3779a024bae4e30234d9f65b5b10ba\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.kyleduo.switchbutton:library:1.4.5] C:\Users\Administrator\.android\build-cache\684ad0b44bc611d383771cd1f17bb195b7167a75\output\AndroidManifest.xml:8:5-10:41
+MERGED from [CommonFramework:ModuleZXing:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleZXing\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.yipianfengye.android:zxing-library:2.1] C:\Users\Administrator\.android\build-cache\51a83e1afa248f3f6e5e3530c0f7e4b46846a7e4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Administrator\.android\build-cache\118b07081ff18c3659eb339ddc0972e32c014817\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Administrator\.android\build-cache\9ea4c8271534e2430250b3e7f2d908a9f4958723\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Administrator\.android\build-cache\c9bbc140f03665cb918877baede919625d1ea9d0\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Administrator\.android\build-cache\fdd991a70fd092743b6effb170d7e66564d41231\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Administrator\.android\build-cache\d0e5608f4167e95ab1710a62ca055e510d4b8fa4\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Administrator\.android\build-cache\2e7d149cf7b5c8de1765da00fe32031773ccee1e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\Administrator\.android\build-cache\4c1f5ffdd5310b908c297c0266f90ff17907cde6\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\Administrator\.android\build-cache\e14df0b9ced835051e7f4c42e7005444a98d1130\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Administrator\.android\build-cache\9a80616ee7fb7abfeb8af9c8f48a150b8ea7adf6\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] C:\Users\Administrator\.android\build-cache\269091aa8586545128d824320d862257944d9174\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+		INJECTED from D:\qq_workspace\android_studio\CommonFramework\app\src\main\AndroidManifest.xml
+activity#cn.ffcs.itbg.itpd.core.Base.LoadMultidexActivity
+ADDED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:14:9-20:52
+	android:process
+		ADDED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:19:13-36
+	android:screenOrientation
+		ADDED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:20:13-49
+	android:excludeFromRecents
+		ADDED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:17:13-46
+	android:launchMode
+		ADDED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:18:13-44
+	android:alwaysRetainTaskState
+		ADDED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:16:13-50
+	android:name
+		ADDED from [CommonFramework:ModuleCore:unspecified] D:\qq_workspace\android_studio\CommonFramework\ModuleCore\build\intermediates\bundles\default\AndroidManifest.xml:15:13-76
+activity#com.uuzuche.lib_zxing.activity.CaptureActivity
+ADDED from [cn.yipianfengye.android:zxing-library:2.1] C:\Users\Administrator\.android\build-cache\51a83e1afa248f3f6e5e3530c0f7e4b46846a7e4\output\AndroidManifest.xml:12:9-17:63
+	android:screenOrientation
+		ADDED from [cn.yipianfengye.android:zxing-library:2.1] C:\Users\Administrator\.android\build-cache\51a83e1afa248f3f6e5e3530c0f7e4b46846a7e4\output\AndroidManifest.xml:15:13-49
+	android:windowSoftInputMode
+		ADDED from [cn.yipianfengye.android:zxing-library:2.1] C:\Users\Administrator\.android\build-cache\51a83e1afa248f3f6e5e3530c0f7e4b46846a7e4\output\AndroidManifest.xml:17:13-60
+	android:configChanges
+		ADDED from [cn.yipianfengye.android:zxing-library:2.1] C:\Users\Administrator\.android\build-cache\51a83e1afa248f3f6e5e3530c0f7e4b46846a7e4\output\AndroidManifest.xml:14:13-63
+	android:theme
+		ADDED from [cn.yipianfengye.android:zxing-library:2.1] C:\Users\Administrator\.android\build-cache\51a83e1afa248f3f6e5e3530c0f7e4b46846a7e4\output\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [cn.yipianfengye.android:zxing-library:2.1] C:\Users\Administrator\.android\build-cache\51a83e1afa248f3f6e5e3530c0f7e4b46846a7e4\output\AndroidManifest.xml:13:13-74

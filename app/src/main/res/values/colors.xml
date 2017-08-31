@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- 自定义RefreshRecyclerView的HeaderView与FooterView的颜色配置 -->
+    <!-- 这里可以覆盖RefreshRecyclerView中默认定义的样式颜色配置 -->
+    <color name="recyclerview_refresh_headerview_background">@android:color/white</color>
+    <color name="recyclerview_refresh_headerview_hint_textColor">@android:color/holo_red_dark</color>
+    <color name="recyclerview_refresh_headerview_lastRefreshTime_textColor">@android:color/holo_red_dark</color>
+    <color name="recyclerview_refresh_footerview_background">@android:color/white</color>
+    <color name="recyclerview_refresh_footerview_hint_textColor">@android:color/holo_red_dark</color>
+</resources>

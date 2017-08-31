@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Refresh View -->
+    <dimen name="recyclerview_refresh_headerview_height">60dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_marginTop">-60dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_progressSize">40dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_hint_height">40dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_hint_marginLeft">6dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_hint_textSize">16dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_lastRefreshTime_height">20dp</dimen>
+    <dimen name="recyclerview_refresh_headerview_lastRefreshTime_textSize">14dp</dimen>
+    <dimen name="recyclerview_refresh_footerview_height">54dp</dimen>
+    <dimen name="recyclerview_refresh_footerview_progressSize">40dp</dimen>
+    <dimen name="recyclerview_refresh_footerview_hint_textSize">16dp</dimen>
+    <dimen name="recyclerview_refresh_footerview_hint_marginLeft">6dp</dimen>
+</resources>

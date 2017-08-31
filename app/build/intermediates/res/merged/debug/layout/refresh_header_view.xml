@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recyclerview_refresh_headerview_height"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="@color/recyclerview_refresh_headerview_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/refresh_headerview_stateIcon"
+                android:layout_width="@dimen/recyclerview_refresh_headerview_progressSize"
+                android:layout_height="@dimen/recyclerview_refresh_headerview_progressSize"
+                android:indeterminateBehavior="repeat"/>
+
+            <TextView
+                android:id="@+id/refresh_headerview_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/recyclerview_refresh_headerview_hint_height"
+                android:layout_marginLeft="@dimen/recyclerview_refresh_headerview_hint_marginLeft"
+                android:gravity="center"
+                android:text="下拉刷新"
+                android:textColor="@color/recyclerview_refresh_headerview_hint_textColor"
+                android:textSize="@dimen/recyclerview_refresh_headerview_hint_textSize"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/refresh_headerview_lastRefreshTime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recyclerview_refresh_headerview_lastRefreshTime_height"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="自定义的上次刷新时间：2017-03-16 10:09:20"
+            android:textColor="@color/recyclerview_refresh_headerview_lastRefreshTime_textColor"
+            android:textSize="@dimen/recyclerview_refresh_headerview_lastRefreshTime_textSize"/>
+    </LinearLayout>
+
+</RelativeLayout>

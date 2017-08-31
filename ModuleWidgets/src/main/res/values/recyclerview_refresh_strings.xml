@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ModuleWidgets</string>
+    <string name="recyclerview_refresh_headerview_hint_stateReady">松开刷新...</string>
+    <string name="recyclerview_refresh_headerview_hint_stateNormal">下拉刷新...</string>
+    <string name="recyclerview_refresh_headerview_hint_stateRefreshing">正在刷新...</string>
+    <string name="recyclerview_refresh_headerview_hint_lastRefreshTimePrefix">上次刷新时间: </string>
+    <string name="recyclerview_refresh_footerview_hint_stateLoading">正在加载...</string>
+    <string name="recyclerview_refresh_footerview_hint_stateLoadedAll">亲，已经到底拉~~~</string>
+</resources>
